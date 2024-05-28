@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..1000;1,100..900);
+
+* {
+  font-family: "Archivo";
+  font-size: x-large;
+  color: aqua;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav ul {
+  margin: 0;
+}
+.nav li {
+  display: inline;
+  padding: 10em;
+  color: white;
+  text-decoration: dashed;
+}
+
+.main-header {
+  background-size: cover;
+  padding-bottom: 30px;
+}
+h1 {
+  color: yellow;
+  position: relative;
+  left: 10px;
+  top: 38px;
+}
+h2 {
+  color: yellow;
+}
+h3 {
+  color: yellow;
+}
+h4 {
+  color: yellow;
+}
+body {
+  background-color: aqua;
+  background-image: url("pictures/galaxy.jpg");
+  text-align: center;
+  background-blend-mode: multiply;
+}
+#rectangle {
+  height: 2px;
+  width: 300px;
+  padding: 25px;
+  border: 4px solid white;
+  background-color: transparent;
+  position: relative;
+  top: -20px;
+  left: 785px;
+}
